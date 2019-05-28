@@ -10,10 +10,10 @@ public class Task01 {
 		boolean isDifferent = NumbersChecker.isDifferent(a, b, c);
 		
 		Printer.print("Are the numbers " + a + ", " + b + " and " + c 
-                + " the same? " + isSame + "\n");
+            + " the same? " + isSame + "\n");
 						
 		Printer.print("Are the numbers " + a + ", " + b + " and " + c 
-				+ " different? " + isDifferent + "\n");
+			+ " different? " + isDifferent + "\n");
 						
 	}
 }
