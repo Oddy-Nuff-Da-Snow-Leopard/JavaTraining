@@ -38,7 +38,7 @@ public class NumberInvertor {
 		digit3 *= (int)Math.pow(TEN, DEGREE2);
 		digit2 *= (int)Math.pow(TEN, DEGREE1);
 		
-		return digit7 + digit6 + digit5 + digit4 + digit3
-			+ digit2 + digit1;
+		return digit7 + digit6 + digit5 + digit4 
+			+ digit3 + digit2 + digit1;
 	}
 }

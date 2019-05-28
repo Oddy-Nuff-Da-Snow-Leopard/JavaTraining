@@ -8,9 +8,9 @@ public class Task04 {
 		double geometricAvg = DigitsMath.findGeometricAverage(number);
 		
 		Printer.print("Arithmetic average of digits of number "
-				+ number + " is " + arithmeticAvg + "\n");
+			+ number + " is " + arithmeticAvg + "\n");
 				
 		Printer.print("Geometric average of digits of number "
-				+ number + " is " + geometricAvg + "\n");
+			+ number + " is " + geometricAvg + "\n");
 	}
 }

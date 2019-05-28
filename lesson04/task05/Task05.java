@@ -7,6 +7,6 @@ public class Task05 {
 		int invertion = NumberInvertor.invert(number);
 		
 		Printer.print("Invertion of number " + number
-				+ " - " + invertion);
+			+ " - " + invertion);
 	}
 }
