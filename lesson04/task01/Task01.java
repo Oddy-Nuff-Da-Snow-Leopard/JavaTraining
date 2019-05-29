@@ -6,14 +6,21 @@ public class Task01 {
 		double b = 3.2;
 		double c = 4.4;
 		
-		boolean isSame = NumbersChecker.isSame(a, b, c);
-		boolean isDifferent = NumbersChecker.isDifferent(a, b, c);
+		boolean isEquals = NumbersChecker.isEquals(a, b, c);
 		
 		Printer.print("Are the numbers " + a + ", " + b + " and " + c 
-			+ " the same? " + isSame + "\n");
-			
+			+ " equals? " + isEquals + "\n");
+		
+		
+		a = 1;
+		b = 1;
+		c = 1;
+		
+		isEquals = NumbersChecker.isEquals(a, b, c);
+		
 		Printer.print("Are the numbers " + a + ", " + b + " and " + c 
-			+ " different? " + isDifferent + "\n");
+			+ " equals? " + isEquals + "\n");
+			
 	}
 }
 		
