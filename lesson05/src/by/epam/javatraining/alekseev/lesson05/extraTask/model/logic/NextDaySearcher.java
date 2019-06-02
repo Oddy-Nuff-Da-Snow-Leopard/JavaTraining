@@ -33,6 +33,9 @@ public class NextDaySearcher {
         if (day > ZERO && day <= NUMBER_OF_DAYS_IN_LONG_MONTH
                 && month > ZERO && month <= NUMBER_OF_MONTHS
                 && year >= ZERO) {
+            
+            // Check for situation: 29/02/2019 --> 2019 is non leap year,
+            // it's mean that in february of year 2019 only 28 days.
             if (month != INDEX_OF_FEBRUARY) {
                 isCorrect = true;
             } else {
