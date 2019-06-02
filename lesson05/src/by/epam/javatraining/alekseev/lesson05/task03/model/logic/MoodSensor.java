@@ -7,23 +7,27 @@ public class MoodSensor {
     private static final int GOOD_MOOD_LIMIT = 6;
     private static final int GREAT_MOOD_LIMIT = 8;
 
-    public static String getMood() {
+    public static String getRandomMood() {
+        int randMoodNumber = Randomizer.getRandonNumber();
+        return getMood(randMoodNumber);
+    }
+
+    public static String getMood(int moodNumber) {
 
         String mood = null;
-        int randMoodNumber = Randomizer.getRandonNumber();
-
-        if (randMoodNumber <= BAD_MOOD_LIMIT) {
+        
+        if (moodNumber <= BAD_MOOD_LIMIT) {
             mood = ":|";
-        } else if (randMoodNumber > BAD_MOOD_LIMIT
-                && randMoodNumber <= SAD_MOOD_LIMIT) {
+        } else if (moodNumber > BAD_MOOD_LIMIT
+                && moodNumber <= SAD_MOOD_LIMIT) {
             mood = ":(";
-        } else if (randMoodNumber > SAD_MOOD_LIMIT
-                && randMoodNumber <= GOOD_MOOD_LIMIT) {
+        } else if (moodNumber > SAD_MOOD_LIMIT
+                && moodNumber <= GOOD_MOOD_LIMIT) {
             mood = ";)";
-        } else if (randMoodNumber > GOOD_MOOD_LIMIT
-                && randMoodNumber <= GREAT_MOOD_LIMIT) {
+        } else if (moodNumber > GOOD_MOOD_LIMIT
+                && moodNumber <= GREAT_MOOD_LIMIT) {
             mood = ":)))";
-        } else if (randMoodNumber > GREAT_MOOD_LIMIT) {
+        } else if (moodNumber > GREAT_MOOD_LIMIT) {
             mood = ":D";
             return mood;
         }

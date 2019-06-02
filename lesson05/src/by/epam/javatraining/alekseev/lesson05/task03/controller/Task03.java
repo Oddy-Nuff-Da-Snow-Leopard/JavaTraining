@@ -7,7 +7,7 @@ public class Task03 {
 
     public static void main(String[] args) {
         
-        String mood = MoodSensor.getMood();
+        String mood = MoodSensor.getRandomMood();
         Printer.print(mood + '\n');
     }
 }
