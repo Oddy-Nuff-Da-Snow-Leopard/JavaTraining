@@ -23,7 +23,7 @@ public class NextDaySearcher {
     private static final int INDEX_OF_FEBRUARY = 2;
 
     // Сhecks whether the year is a leap year.
-    public static boolean isLeap(int year) {
+    private static boolean isLeap(int year) {
         return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
     }
 
@@ -57,7 +57,7 @@ public class NextDaySearcher {
                 + (month < 10 ? "0" : "") + month + "/" + year;
     }
 
-    public static int parse(String value) {
+    private static int parse(String value) {
         return Integer.parseInt(value);
     }
 
