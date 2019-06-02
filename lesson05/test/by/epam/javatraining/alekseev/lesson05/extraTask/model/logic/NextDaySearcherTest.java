@@ -5,18 +5,20 @@ import static org.junit.Assert.*;
 
 public class NextDaySearcherTest {
     
+    public NextDaySearcherTest() {
+    }
+
     @Test
-    public void testGetNextDay() {
-        String date = "01/06/2019";
-        String expResult = "02/06/2019";
+    public void testGetNextDayInvalidFormat1() {
+        String date = "20.02.2019";
+        String expResult = "Invalid format!";
         String result = NextDaySearcher.getNextDay(date);
         assertEquals(expResult, result);
     }
     
-    @Test
-    public void testGetNextDayNewYear() {
-        String date = "31/12/2019";
-        String expResult = "01/01/2020";
+     public void testGetNextDayInvalidFormat2() {
+        String date = "20-02-2019";
+        String expResult = "Invalid format!";
         String result = NextDaySearcher.getNextDay(date);
         assertEquals(expResult, result);
     }
@@ -27,7 +29,7 @@ public class NextDaySearcherTest {
         String expResult = "01/03/2019";
         String result = NextDaySearcher.getNextDay(date);
         assertEquals(expResult, result);
-    }
+}
     
     @Test
     public void testGetNextDayLeapFebruary() {
