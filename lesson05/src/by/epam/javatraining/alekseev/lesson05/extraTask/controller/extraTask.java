@@ -7,7 +7,7 @@ public class extraTask {
 
     public static void main(String[] args) {
 
-        Printer.print("Enter date in xx/xx/xxxx format: ");
+        Printer.print("Enter date in dd/mm/yyyy format: ");
         String date = Scanner.scan();
         Printer.print("\nNext day: ");
         String nextDay = NextDaySearcher.getNextDay(date);

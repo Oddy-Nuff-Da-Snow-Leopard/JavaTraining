@@ -8,14 +8,14 @@ public class MoodSensor {
     private static final int GREAT_MOOD_LIMIT = 8;
 
     public static String getRandomMood() {
-        int randMoodNumber = Randomizer.getRandonNumber();
+        int randMoodNumber = Random.getRandomNumber();
         return getMood(randMoodNumber);
     }
 
     public static String getMood(int moodNumber) {
 
         String mood = null;
-        
+
         if (moodNumber <= BAD_MOOD_LIMIT) {
             mood = ":|";
         } else if (moodNumber > BAD_MOOD_LIMIT

@@ -15,7 +15,7 @@ public class DragonLogicTest {
 
     @Test
     public void testCountEyesNegative() {
-        int age = -3;
+        int age = -100;
         int expResult = 0;
         int result = DragonLogic.countEyes(age);
         assertEquals(expResult, result);

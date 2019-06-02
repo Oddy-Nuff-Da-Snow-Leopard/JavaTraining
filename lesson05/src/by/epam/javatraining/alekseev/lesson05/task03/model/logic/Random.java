@@ -1,13 +1,11 @@
 package by.epam.javatraining.alekseev.lesson05.task03.model.logic;
 
-import java.util.Random;
+public class Random {
 
-public class Randomizer {
-    
     private static final int MAX_VALUE = 10;
-    private static final Random RND = new Random();
-    
-    public static int getRandonNumber() {
+    private static final java.util.Random RND = new java.util.Random();
+
+    public static int getRandomNumber() {
         return RND.nextInt(MAX_VALUE);
     }
 }

@@ -31,11 +31,11 @@ public class DragonLogic {
                         + (age - FIRST_AGE_LIMIT) * SECOND_NUMBER_OF_HEADS;
             } else {
                 numberOfHeads += FIRST_AGE_LIMIT * FIRST_NUMBER_OF_HEADS
-                        + (SECOND_AGE_LIMIT - FIRST_AGE_LIMIT) * SECOND_NUMBER_OF_HEADS
+                        + (SECOND_AGE_LIMIT - FIRST_AGE_LIMIT)
+                        * SECOND_NUMBER_OF_HEADS
                         + (age - SECOND_AGE_LIMIT) * THIRD_NUMBER_OF_HEADS;
             }
         }
-
         return numberOfHeads;
     }
 

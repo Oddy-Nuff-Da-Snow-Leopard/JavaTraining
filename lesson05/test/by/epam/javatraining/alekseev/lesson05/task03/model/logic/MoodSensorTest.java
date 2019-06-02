@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MoodSensorTest {
-    
+
     @Test
     public void testGetBadMood() {
         int moodNumber = 2;
@@ -12,7 +12,7 @@ public class MoodSensorTest {
         String result = MoodSensor.getMood(moodNumber);
         assertEquals(expResult, result);
     }
-    
+
     @Test
     public void testGetSadMood() {
         int moodNumber = 3;
@@ -20,7 +20,7 @@ public class MoodSensorTest {
         String result = MoodSensor.getMood(moodNumber);
         assertEquals(expResult, result);
     }
-    
+
     @Test
     public void testGetGoodMood() {
         int moodNumber = 6;
@@ -28,7 +28,7 @@ public class MoodSensorTest {
         String result = MoodSensor.getMood(moodNumber);
         assertEquals(expResult, result);
     }
-    
+
     @Test
     public void testGetGreatMood() {
         int moodNumber = 8;
@@ -36,7 +36,7 @@ public class MoodSensorTest {
         String result = MoodSensor.getMood(moodNumber);
         assertEquals(expResult, result);
     }
-    
+
     @Test
     public void testGetExcellentMood() {
         int moodNumber = 10;
@@ -44,5 +44,5 @@ public class MoodSensorTest {
         String result = MoodSensor.getMood(moodNumber);
         assertEquals(expResult, result);
     }
-    
+
 }
