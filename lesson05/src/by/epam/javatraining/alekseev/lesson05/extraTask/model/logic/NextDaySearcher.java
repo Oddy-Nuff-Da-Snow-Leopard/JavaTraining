@@ -83,56 +83,60 @@ public class NextDaySearcher {
 
         String[] parts = date.split("/");
         if (parts.length == 3) {
-            int day = parse(parts[0]);
-            int month = parse(parts[1]);
-            int year = parse(parts[2]);
+            try {
+                int day = parse(parts[0]);
+                int month = parse(parts[1]);
+                int year = parse(parts[2]);
 
-            if (isDateCorrect(day, month, year)) {
+                if (isDateCorrect(day, month, year)) {
 
-                day++;
-                boolean isLeap = isLeap(year);
+                    day++;
+                    boolean isLeap = isLeap(year);
 
-                // Check for a long month.
-                if (month == INDEX_OF_JANUARY || month == INDEX_OF_MARCH
-                        || month == INDEX_OF_MAY || month == INDEX_OF_JULY
-                        || month == INDEX_OF_AUGUST
-                        || month == INDEX_OF_OCTOBER) {
-                    if (day > NUMBER_OF_DAYS_IN_LONG_MONTH) {
-                        day %= NUMBER_OF_DAYS_IN_LONG_MONTH;
-                        month++;
-                    }
-                    // Check for february.
-                } else if (month == INDEX_OF_FEBRUARY) {
-                    if (isLeap) {
-                        if (day > NUMBER_OF_DAYS_IN_LEAP_FEBRUARY) {
-                            day %= NUMBER_OF_DAYS_IN_LEAP_FEBRUARY;
+                    // Check for a long month.
+                    if (month == INDEX_OF_JANUARY || month == INDEX_OF_MARCH
+                            || month == INDEX_OF_MAY || month == INDEX_OF_JULY
+                            || month == INDEX_OF_AUGUST
+                            || month == INDEX_OF_OCTOBER) {
+                        if (day > NUMBER_OF_DAYS_IN_LONG_MONTH) {
+                            day %= NUMBER_OF_DAYS_IN_LONG_MONTH;
                             month++;
                         }
+                        // Check for february.
+                    } else if (month == INDEX_OF_FEBRUARY) {
+                        if (isLeap) {
+                            if (day > NUMBER_OF_DAYS_IN_LEAP_FEBRUARY) {
+                                day %= NUMBER_OF_DAYS_IN_LEAP_FEBRUARY;
+                                month++;
+                            }
+                        } else {
+                            if (day > NUMBER_OF_DAYS_IN_NON_LEAP_FEBRUARY) {
+                                day %= NUMBER_OF_DAYS_IN_NON_LEAP_FEBRUARY;
+                                month++;
+                            }
+                        }
+                        // Check for december.
+                    } else if (month == INDEX_OF_DECEMBER) {
+                        if (day > NUMBER_OF_DAYS_IN_LONG_MONTH) {
+                            day %= NUMBER_OF_DAYS_IN_LONG_MONTH;
+                            month = 1;
+                            year++;
+                        }
+                        // Otherwise month is short.
                     } else {
-                        if (day > NUMBER_OF_DAYS_IN_NON_LEAP_FEBRUARY) {
-                            day %= NUMBER_OF_DAYS_IN_NON_LEAP_FEBRUARY;
+                        if (day > NUMBER_OF_DAYS_IN_SHORT_MONTH) {
+                            day %= NUMBER_OF_DAYS_IN_SHORT_MONTH;
                             month++;
                         }
                     }
-                    // Check for december.
-                } else if (month == INDEX_OF_DECEMBER) {
-                    if (day > NUMBER_OF_DAYS_IN_LONG_MONTH) {
-                        day %= NUMBER_OF_DAYS_IN_LONG_MONTH;
-                        month = 1;
-                        year++;
-                    }
-                    // Otherwise month is short.
+
+                    return convertToDate(day, month, year);
+
                 } else {
-                    if (day > NUMBER_OF_DAYS_IN_SHORT_MONTH) {
-                        day %= NUMBER_OF_DAYS_IN_SHORT_MONTH;
-                        month++;
-                    }
+                    return "Wrong date!";
                 }
-
-                return convertToDate(day, month, year);
-
-            } else {
-                return "Wrong date!";
+            } catch (Exception ex){
+                return "Invalid format!";
             }
         }
         return "Invalid format!";
