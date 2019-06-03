@@ -12,7 +12,6 @@ public class MoodSensor {
         return getMood(randMoodNumber);
     }
 
-    // For testing.
     public static String getMood(int moodNumber) {
 
         String mood = null;
