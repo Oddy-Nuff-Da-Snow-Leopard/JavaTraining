@@ -27,6 +27,9 @@ public class NextDaySearcher {
     private static final int INDEX_OF_NOVEMBER = 11;
 
     private static final int INDEX_OF_FEBRUARY = 2;
+    
+    private static final String WRONG_DATE_MSG = "Wrong date!";
+    private static final String INVALID_FORMAT_MSG = "Invalid format!";
 
     // Сhecks whether the year is a leap year.
     private static boolean isLeap(int year) {
@@ -133,12 +136,12 @@ public class NextDaySearcher {
                     return convertToDate(day, month, year);
 
                 } else {
-                    return "Wrong date!";
+                    return WRONG_DATE_MSG;
                 }
             } catch (Exception ex){
-                return "Invalid format!";
+                return INVALID_FORMAT_MSG;
             }
         }
-        return "Invalid format!";
+        return INVALID_FORMAT_MSG;
     }
 }
