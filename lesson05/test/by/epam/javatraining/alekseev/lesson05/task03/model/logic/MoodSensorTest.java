@@ -6,43 +6,42 @@ import static org.junit.Assert.*;
 public class MoodSensorTest {
 
     @Test
-    public void testGetBadMood() {
-        int moodNumber = 2;
-        String expResult = ":|";
-        String result = MoodSensor.getMood(moodNumber);
+    public void testWrapMethodBadMood() {
+        int moodNumber = 0;
+        String expResult = ";\\";
+        String result = MoodSensor.wrapMethod(moodNumber);
         assertEquals(expResult, result);
     }
 
     @Test
-    public void testGetSadMood() {
-        int moodNumber = 3;
+    public void testWrapMethodSadMood() {
+        int moodNumber = 1;
         String expResult = ":(";
-        String result = MoodSensor.getMood(moodNumber);
+        String result = MoodSensor.wrapMethod(moodNumber);
         assertEquals(expResult, result);
     }
 
     @Test
-    public void testGetGoodMood() {
-        int moodNumber = 6;
-        String expResult = ";)";
-        String result = MoodSensor.getMood(moodNumber);
+    public void testWrapMethodGoodMood() {
+        int moodNumber = 2;
+        String expResult = ":)";
+        String result = MoodSensor.wrapMethod(moodNumber);
         assertEquals(expResult, result);
     }
 
     @Test
-    public void testGetGreatMood() {
-        int moodNumber = 8;
+    public void testWrapMethodGreatMood() {
+        int moodNumber = 3;
         String expResult = ":)))";
-        String result = MoodSensor.getMood(moodNumber);
+        String result = MoodSensor.wrapMethod(moodNumber);
         assertEquals(expResult, result);
     }
 
     @Test
-    public void testGetExcellentMood() {
-        int moodNumber = 10;
+    public void testWrapMethodExcellentMood() {
+        int moodNumber = 4;
         String expResult = ":D";
-        String result = MoodSensor.getMood(moodNumber);
+        String result = MoodSensor.wrapMethod(moodNumber);
         assertEquals(expResult, result);
     }
-
 }
