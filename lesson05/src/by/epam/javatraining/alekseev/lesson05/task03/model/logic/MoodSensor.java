@@ -18,7 +18,7 @@ public class MoodSensor {
         return getMood(randMoodNumber);
     }
     
-    public static String wrapMethod(int moodNumber){
+    public static String wrapMethod(int moodNumber) {
         return getMood(moodNumber);
     }
 
