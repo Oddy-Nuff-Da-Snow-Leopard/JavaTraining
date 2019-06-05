@@ -28,6 +28,8 @@ public class NextDaySearcher {
 
     private static final int INDEX_OF_FEBRUARY = 2;
     
+    private static final String DELIMITER = "/";
+    
     private static final String WRONG_DATE_MSG = "Wrong date!";
     private static final String INVALID_FORMAT_MSG = "Invalid format!";
 
@@ -74,8 +76,8 @@ public class NextDaySearcher {
 
     // Сreates a string representation of the date.
     private static String convertToDate(int day, int month, int year) {
-        return (day < 10 ? "0" : "") + day + "/"
-                + (month < 10 ? "0" : "") + month + "/" + year;
+        return (day < 10 ? "0" : "") + day + DELIMITER
+                + (month < 10 ? "0" : "") + month + DELIMITER + year;
     }
 
     private static int parse(String value) {
@@ -84,7 +86,7 @@ public class NextDaySearcher {
 
     public static String getNextDay(String date) {
 
-        String[] parts = date.split("/");
+        String[] parts = date.split(DELIMITER);
         if (parts.length == 3) {
             try {
                 int day = parse(parts[0]);
