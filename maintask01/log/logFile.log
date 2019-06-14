@@ -1,0 +1,70 @@
+ INFO 2019-00-14 03:00:33 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:20 MESSAGE: Array created and initialized
+ INFO 2019-04-14 03:04:49 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-04-14 03:04:49 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:28 MESSAGE: Array initialized! [1.0, 4.0, 8.0, 6.0, 7.0, 0.0, 9.0, 3.0]
+ INFO 2019-05-14 03:05:05 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-05-14 03:05:28 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-05-14 03:05:28 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:28 MESSAGE: Array initialized! [2.475957399418538, 3.2286883154950825, 0.8428264927968969, 1.9593780452185423, 1.7638337096281003, 0.0, 0.8374504351704538, 4.341287522514791]
+ INFO 2019-06-14 03:06:21 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array created!
+ INFO 2019-06-14 03:06:21 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:29 MESSAGE: Array initialized! [0.0, 7.0, 0.0, 8.0, 8.0, 4.0, 0.0, 9.0]
+ INFO 2019-06-14 03:06:38 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array created!
+ INFO 2019-06-14 03:06:38 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:29 MESSAGE: Array initialized! [19.0, 10.0, 16.0, 14.0, 11.0, 2.0, 11.0, 13.0]
+ INFO 2019-30-14 03:30:12 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-30-14 03:30:12 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 3.0, 7.0, 8.0, 9.0, 5.0, 2.0, 0.0]
+ WARN 2019-30-14 03:30:12 by.epam.javatraining.alekseev.maintask01.task01.model.logic.Vector doBinarySearch line:218 MESSAGE: Method doBinarySearch received bad parameters! Array is null or empty!
+ INFO 2019-30-14 03:30:19 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-30-14 03:30:19 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 3.0, 7.0, 8.0, 9.0, 5.0, 2.0, 0.0]
+ WARN 2019-30-14 03:30:19 by.epam.javatraining.alekseev.maintask01.task01.model.logic.Vector doBinarySearch line:218 MESSAGE: Method doBinarySearch received bad parameters! Array is null or empty!
+ INFO 2019-30-14 03:30:57 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-30-14 03:30:57 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 3.0, 7.0, 8.0, 9.0, 5.0, 2.0, 0.0]
+ INFO 2019-34-14 03:34:32 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-34-14 03:34:32 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 3.0, 7.0, 8.0, 9.0, 5.0, 2.0, 0.0]
+ INFO 2019-34-14 03:34:32 by.epam.javatraining.alekseev.maintask01.task01.model.logic.Vector doBinarySearch line:224 MESSAGE: Array sorted!
+ INFO 2019-34-14 03:34:49 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-34-14 03:34:49 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [9.0, 4.0, 2.0, 1.0]
+ INFO 2019-34-14 03:34:49 by.epam.javatraining.alekseev.maintask01.task01.model.logic.Vector doBinarySearch line:224 MESSAGE: Array sorted!
+ INFO 2019-35-14 03:35:23 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-35-14 03:35:23 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 2.0, 3.0, 4.0, 7.0, 9.0]
+ INFO 2019-40-14 03:40:33 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-40-14 03:40:33 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 2.0, 3.0, 4.0, 7.0, 9.0]
+ INFO 2019-50-14 03:50:10 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-50-14 03:50:10 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [0.0]
+ INFO 2019-50-14 03:50:20 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-50-14 03:50:20 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! []
+ WARN 2019-50-14 03:50:20 by.epam.javatraining.alekseev.maintask01.task01.model.logic.Vector doBinarySearch line:218 MESSAGE: Method doBinarySearch received bad parameters! Array is null or empty!
+ INFO 2019-01-14 04:01:26 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-01-14 04:01:26 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 2.0, 3.0, 4.0]
+ INFO 2019-39-14 04:39:17 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-39-14 04:39:17 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0]
+ INFO 2019-39-14 04:39:44 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-39-14 04:39:44 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0]
+ INFO 2019-40-14 04:40:10 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-40-14 04:40:10 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0]
+ INFO 2019-50-14 07:50:35 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-50-14 07:50:35 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0]
+ INFO 2019-51-14 07:51:20 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-51-14 07:51:20 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-53-14 07:53:26 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-53-14 07:53:26 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-53-14 07:53:45 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-53-14 07:53:45 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-12-14 08:12:44 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-12-14 08:12:44 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-19-14 08:19:00 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-19-14 08:19:00 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-19-14 08:19:08 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-19-14 08:19:08 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ WARN 2019-19-14 08:19:08 by.epam.javatraining.alekseev.maintask01.task01.model.logic.Vector mergeSortAsc line:443 MESSAGE: Method received bad parameter! Array is null or empty!
+ INFO 2019-23-14 08:23:17 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-23-14 08:23:17 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-25-14 08:25:34 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-25-14 08:25:34 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-25-14 08:25:58 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-25-14 08:25:58 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, 576.0, 12367.0, 12.0, 1.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-26-14 08:26:51 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-26-14 08:26:51 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, -3.0, 124.0, 2.0, -4.0]
+ INFO 2019-27-14 08:27:10 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-27-14 08:27:10 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, -3.0, 124.0, 2.0, -4.0, -2.0, 3.0, 123.0, 1234.0, 124.0, 12.0]
+ INFO 2019-27-14 08:27:53 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-27-14 08:27:53 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, -3.0, 124.0, 2.0, -4.0, -2.0, 124.0, 12.0]
+ INFO 2019-28-14 08:28:07 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:22 MESSAGE: Array created!
+ INFO 2019-28-14 08:28:07 by.epam.javatraining.alekseev.maintask01.task01.controller.Main main line:23 MESSAGE: Array initialized! [1.0, 4.0, -3.0, 124.0, 12.0]
