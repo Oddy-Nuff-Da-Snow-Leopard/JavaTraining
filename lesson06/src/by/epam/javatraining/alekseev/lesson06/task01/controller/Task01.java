@@ -13,5 +13,6 @@ public class Task01 {
         Printer.print("Number of flips: " + numberOfFlips + "\n"
                 + "Number of heads: " + numberOfHeads + "\n"
                 + "Number of tails: " + numberOfTails);
+
     }
 }

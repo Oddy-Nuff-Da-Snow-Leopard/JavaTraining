@@ -28,7 +28,7 @@ public class Vector {
      * Used to denote zero array index
      */
     private static final int EMPTY_ARRAY_LENGTH = 0;
-    
+
     /**
      * Can be returned if the method didn't find something, or the method
      * received bad parameters
@@ -361,8 +361,9 @@ public class Vector {
      */
     public static void bubbleSortAsc(double[] array) {
         if (!isNullOrEmpty(array)) {
-            for (int i = 0; i < array.length; i++) {
-                for (int j = 0; j < array.length - 1; j++) {
+            for (int i = 0; i < array.length - 1; i++) {
+                int n = array.length - 1;
+                for (int j = 0; j < n; j++) {
                     if (array[j] > array[j + 1]) {
                         swap(array, j, j + 1);
                     }
@@ -380,8 +381,9 @@ public class Vector {
      */
     public static void modified1BubbleSortAsc(double[] array) {
         if (!isNullOrEmpty(array)) {
-            for (int i = 0; i < array.length; i++) {
-                for (int j = 0; j < array.length - i - 1; j++) {
+            for (int i = 0; i < array.length - 1; i++) {
+                int n = array.length - i - 1;
+                for (int j = 0; j < n; j++) {
                     if (array[j] > array[j + 1]) {
                         swap(array, j, j + 1);
                     }
@@ -401,7 +403,8 @@ public class Vector {
         if (!isNullOrEmpty(array)) {
             for (int i = 0; i < array.length; i++) {
                 boolean flag = false;
-                for (int j = 0; j < array.length - i - 1; j++) {
+                int n = array.length - i - 1;
+                for (int j = 0; j < n; j++) {
                     if (array[j] > array[j + 1]) {
                         swap(array, j, j + 1);
                         flag = true;

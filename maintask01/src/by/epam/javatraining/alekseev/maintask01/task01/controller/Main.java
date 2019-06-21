@@ -14,6 +14,6 @@ public class Main {
     private static final Random RANDOM = new Random();
 
     public static void main(String[] args) throws BadArgumentException {
-
+        
     }
 }
