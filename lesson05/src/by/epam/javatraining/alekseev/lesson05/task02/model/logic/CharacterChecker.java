@@ -47,28 +47,15 @@ public class CharacterChecker {
     }
 
     public static boolean isVowelFive(char character) {
-        character = getUpperCase(character);
-        boolean flag = false;
-        switch (character) {
+        switch (getUpperCase(character)) {
             case A:
-                flag = true;
-                break;
             case E:
-                flag = true;
-                break;
             case I:
-                flag = true;
-                break;
             case O:
-                flag = true;
-                break;
             case U:
-                flag = true;
-                break;
             case Y:
-                flag = true;
-                break;
+                return true;
         }
-        return flag;
+        return false;
     }
 }
